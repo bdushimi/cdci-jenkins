@@ -10,7 +10,7 @@ stage 'Compile'
 
 stage 'Test'
 	node{
-		git url: 'https://github.com/mitesh51/spring-petclinic.git'
+		git url: 'https://github.com/bdushimi/cdci-jenkins.git'
 		def mvnHome = tool name: 'Maven', type: 'maven'
 		sh "${mvnHome}/bin/mvn -B verify"
 		step([$class: 'ArtifactArchiver', artifacts: '**/target/*.war', fingerprint: true])
