@@ -1,6 +1,8 @@
 
 echo 'CDCI-TPM'
 
+echo '2nd run'
+
 stage 'Compile'
 	node {
 		git url: 'https://github.com/bdushimi/cdci-jenkins.git'
