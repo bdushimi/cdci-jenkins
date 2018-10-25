@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: tpm
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: bdushimimana
+Implementation-Vendor-Id: tpm
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/demo-tpm
+Created-By: Maven Integration for Eclipse
+
